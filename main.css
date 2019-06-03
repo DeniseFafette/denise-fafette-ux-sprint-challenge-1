@@ -1,69 +1,59 @@
 * {
-    background: #F8FAFC;
-    font-family: Lato;
-    font-style: 
+    font-family: "Lato", sans-serif;
   }
-
-  .containers nav a {
-    margin: 0 10px;
-    padding: 20px;
-    border-radius: 90px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
-    background: #3182CE;
-    flex: display;
-    align-content: center;
+  
+  main {
+    margin: 5rem auto 0;
+    max-width: 600px;
   }
-  .navigation {
-    flex: display;
-    flex-direction: row;
-}
-h2 {
-    font-size: 24px;
-}
-h3 {
-    font-size: 12px;
-    color: #3182CE;
-}
-.left-column {
-    flex: display;
-    border: 2px red solid;
-    margin: 40%;
-    flex-direction: row;
-
-}
-.right-column {
-    flex: display;
-    border: 2px blue solid;
-    margin: 40%;
-    flex-direction: row;
-}
-.middle-column {
-    flex: display;
-    border: 2px violet solid;
-    margin: 40%;
-}
-  .create-account {
-    color: #22292F;
-    font-size: 16px;
+  
+  .progress-trackers {
     display: flex;
-    padding: 20px;
-    margin: 20%;
-    flex-direction: column;
     justify-content: space-between;
-    border: 2px black solid;
   }
-
-  .form-field {
+  
+  .progress-tracker {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .progress-tracker span {
+    padding: 10px 15px;
+    background: #8795a1;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .progress-tracker h2 {
+    text-transform: uppercase;
+    color: #8795a1;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .active-tracker {
+    color: #3182ce;
+  }
+  
+  .active-tracker span {
+    background: #3182ce;
+  }
+  .form {
+
+  }
+  .form-fields {
+    border: red solid;
+  }
+  .input-field {
+
   }
   .button {
       background-color: #3182CE;
-      color: #F8FAFC;
+      color: white; 
       display: flex;
-      align-items: right;
-      text-align: center;
-      width: 3rem;
-      height: 2rem;
+      justify-content: right;
   }

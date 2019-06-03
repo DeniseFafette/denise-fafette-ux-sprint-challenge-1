@@ -5,55 +5,45 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">              
     <link rel="stylesheet" href="main.css">
   </head>         
- <body>  
-     <!--Navigation-->
-     <div class="navigation">
-     <div class="containers">
-         <nav>
-             <div class="left-column">
-                    <a href="#">1</a>
-                    <h3>CREATE ACCOUNT</h3>
-             </div>
-            <div class="middle-column">
-                    <a href="#">2</a>
-                    <h3>PERSONAL DETAILS</h3>
-            </div>               
-            <div class="right-column">
-                    <a href="#">3</a>
-                    <h3>BILLING DETAILS</h3>
-            </div>
-                
-         </nav>
-     </div> 
-    </div>
-     <!--Form---->
-     <section class="create-account">
-         <h2>Join the Wizz.ly Team</h2>
-         <form class=form action="https://my-server-processing-code.com" method="POST"></form>
-        </div>
-        <!--Email Field-->
-        <div class="form-field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" />
-        </div>
-        <!--Password Field-->
-        <div class="form-field">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" />
-              </div>
-              <!--Confirm Password Field-->
-        <div class="form-field">
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-pw" name="confirm-pw" />
-              </div>
-            </div>
-            <!--Next Button-->
-            <button class=button type="submit">Next</button>
-          </div>
-     <div>
+ <body>            
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet"/>
 
-     </div> 
-    </section>        
-
+    <main>
+      <section class="progress-trackers">
+        <div class="progress-tracker active-tracker">
+          <span>1</span>
+          <h2>Create Account</h2>
+        </div>
+        <div class="progress-tracker">
+          <span>2</span>
+          <h2>Personal Details</h2>
+        </div>
+        <div class="progress-tracker">
+          <span>3</span>
+          <h2>Billing Details</h2>
+        </div>
+      </section>
+      <section class="form-container">
+            <form class="form-fields" action="https://my-server-processing-code.com" method="POST">
+          <h2>Join the Wizz.ly Team</h2>
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" />
+                  </div>
+                  <div class="input-field">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" id="password" name="password" />
+                      </div>
+        </div>
+        <div>
+            <button class="button" type="submit">Next</button>
+        </div>
+        </form>
+      </section>
+    </main>
  </body>
 </html>
